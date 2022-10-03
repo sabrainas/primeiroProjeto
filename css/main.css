@@ -1,0 +1,60 @@
+body {
+width:100%;
+height:100%;
+margin: 0 auto;
+}
+.menu-principal {
+width:100%;
+background-color: #83be8e;
+height:60px;
+}
+main {
+margin: 0 auto;
+width:980px;
+position:relative;
+}
+.logo {
+float:left;
+padding:15px;
+width:65%;
+}
+.redes-sociais ul li {
+margin-left:9px;
+display:inline-block;
+list-style:none;
+float:left;
+}
+.redes-sociais{
+width:20%;
+float:right;
+}
+.header-2{
+background-color: rgb(250, 250, 238);
+width:100%;
+border-bottom:3px solid #d8ffc6;
+}
+.menu ul li {
+display: inline-block;
+color:rgb(244, 244, 196)
+}
+.menu ul li a {
+text-decoration: none;
+color:rgb(62, 62, 51);
+font-size: 18px;
+text-transform: uppercase;
+margin-left: 110px;
+float: center;
+}
+.menu{
+width: 70%;
+float: left;
+}
+.busca {
+width: 30%;
+float: right;
+}
+.col-100{
+width: 100%;
+float:left;
+position:relative;
+}
