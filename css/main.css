@@ -7,6 +7,8 @@ margin: 0 auto;
 width:100%;
 background-color: #83be8e;
 height:60px;
+margin: 0 auto;
+border-bottom: 3px solid #83be8e;
 }
 main {
 margin: 0 auto;
@@ -29,29 +31,50 @@ width:20%;
 float:right;
 }
 .header-2{
-background-color: rgb(250, 250, 238);
+background-color: rgb(255, 255, 237);
 width:100%;
-border-bottom:3px solid #d8ffc6;
+padding: 15px;
+}
+.menu-urls{
+height:75px;
+border-bottom:3px solid #efeec9;
+background-color: rgb(255, 255, 237);
 }
 .menu ul li {
 display: inline-block;
-color:rgb(244, 244, 196)
+margin-left:155px;
+height:45px;
+}
+.menu ul li:hover{
+border-bottom: 2px solid #83be8e;
+}
+.menu ul li a:hover{
+color:#83be8e;
 }
 .menu ul li a {
 text-decoration: none;
-color:rgb(62, 62, 51);
-font-size: 18px;
+color: rgba(90, 74, 26, 0.75);
+font-size: 15px;
+font-family: Montserrat, sans-serif;
 text-transform: uppercase;
-margin-left: 110px;
-float: center;
 }
 .menu{
-width: 70%;
+width: 65%;
 float: left;
 }
 .busca {
+margin-top:13px;
 width: 30%;
 float: right;
+border-style: hidden;
+}
+.busca input{
+height: 25px;
+padding:10px;
+width:190px;
+text-align: left;
+border: 1px solid #d6d6d6;
+border-color: #d6d6d6;
 }
 .col-100{
 width: 100%;
